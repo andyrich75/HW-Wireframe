@@ -28,20 +28,36 @@ section {
     background: #ebebeb;
     float: left;
     margin: 10px 10px 10px 40px;
+    width: 495px;
+    height: 300px;
 }
 
 aside {
     background: #ebebeb;
     float: left;
     margin: 10px 40px 10px 10px;
+    width: 365px;
+    height: 300px;
 }
 
-aritcle {
+.clearfix {
+    overflow: auto;
+}
+
+article {
     color: #777;
     background: #ebebeb;
+    clear: both;
+    padding: 10px;
 }
 
-h1, p {
+h1, h2, h3 {
+    color: #777;
+    background: #ebebeb;
+    float: left;
+}
+
+p {
     color: #777;
     background: #ebebeb;
 }
