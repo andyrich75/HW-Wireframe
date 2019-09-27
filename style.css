@@ -8,18 +8,32 @@ body {
 
 header {
     background: #ebebeb;
+    margin: 5px 40px;
+    padding: 20px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid black;
 }
 
 nav { 
-    background: #ebebeb;  
+    background: #ebebeb; 
+    margin: 5px 40px; 
+    padding: 20px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid black;
 }
 
 section { 
     background: #ebebeb;
+    float: left;
+    margin: 10px 10px 10px 40px;
 }
 
 aside {
     background: #ebebeb;
+    float: left;
+    margin: 10px 40px 10px 10px;
 }
 
 aritcle {
@@ -34,4 +48,8 @@ h1, p {
 
 footer{
     background: #ebebeb;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+
 }
